@@ -1,0 +1,75 @@
+$main-color: #00a89a;
+$main-color-dark: #00998c;
+$light-secondary: rgb(250, 250, 250);
+$another-color: #1a3e49;
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    input, select, textarea, button{
+        outline: none;
+    }
+    .nearestHospitals{
+        .mapp{
+            max-width: 100%;
+            position: relative;
+            height: 100vh;
+            .mapData{
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                h1{
+                    font-size: x-large;
+                    background-color: $main-color;
+                    padding: 20px;
+                    border: 1px solid $main-color;
+                    a{
+                        color: white;
+                    }
+                    &:hover{
+                        background-color: white;
+                        a{
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+            .searchbar{
+                position: absolute;
+                z-index: 1000;
+                bottom: 20px;
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+                .bar{
+                    background-color: white;
+                    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+                    border-radius: 3px;
+                    position: relative;
+                    .input{
+                        width: 80%;
+                        input{
+                            width: 80%;
+                            border: 0;
+                            background-color: rgba(0, 0, 0, 0);
+                            height: 40px;
+                            padding: 5px 10px;
+                            color: rgb(29, 29, 29);
+                        }
+                    }
+                    .searchbut{
+                        position: absolute;
+                        right: 10px;
+                        top: 2px;
+                        button{
+                            background-color: rgba(0, 0, 0, 0);
+                            height: 40px;
+                            border: 0;
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
