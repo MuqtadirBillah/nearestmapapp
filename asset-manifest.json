@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MuqtadirBillah/nearestmapapp.git/static/css/main.32c6ab28.css",
+    "main.js": "/MuqtadirBillah/nearestmapapp.git/static/js/main.b87418d7.js",
+    "static/js/787.4362d201.chunk.js": "/MuqtadirBillah/nearestmapapp.git/static/js/787.4362d201.chunk.js",
+    "index.html": "/MuqtadirBillah/nearestmapapp.git/index.html",
+    "main.32c6ab28.css.map": "/MuqtadirBillah/nearestmapapp.git/static/css/main.32c6ab28.css.map",
+    "main.b87418d7.js.map": "/MuqtadirBillah/nearestmapapp.git/static/js/main.b87418d7.js.map",
+    "787.4362d201.chunk.js.map": "/MuqtadirBillah/nearestmapapp.git/static/js/787.4362d201.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32c6ab28.css",
+    "static/js/main.b87418d7.js"
+  ]
+}
